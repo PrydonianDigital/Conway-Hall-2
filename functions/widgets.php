@@ -16,7 +16,7 @@
 			echo '<h2 class="widgettitle">'. $title .'</h2>';
 			echo '<script>';
 			echo '(function() {';
-			echo 'var cx = "005436056762542104014:ocb1nr7phyw";';
+			echo 'var cx = "015352071736437870634:4muuitsu3iu";';
 			echo 'var gcse = document.createElement("script");';
 			echo 'gcse.type = "text/javascript";';
 			echo 'gcse.async = true;';
@@ -27,7 +27,7 @@
 			echo '</script>';
 			echo '<div class="w-form field form-wrapper">';
 			echo '<form name="cse" id="searchbox" action="/search" method="get">';
-			echo '<input type="hidden" name="cx" value="005436056762542104014:ocb1nr7phyw" /><!-- Replace YOUR_CSEID with your CSE ID (!) -->';
+			echo '<input type="hidden" name="cx" value="015352071736437870634:4muuitsu3iu" /><!-- Replace YOUR_CSEID with your CSE ID (!) -->';
 			echo '<input type="hidden" name="ie" value="utf-8" />';
 			echo '<input type="hidden" name="hl" value="en" />';
 			echo '<input name="q" type="text" class="your-custom-field-class" placeholder="Search" />';

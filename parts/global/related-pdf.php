@@ -19,9 +19,9 @@
 		<div class="small-12 medium-4 large-4 columns">
 			<div class="card">
 				<div class="card-divider">
-					<h5><a href="<?php global $post; $text = get_post_meta( $post->ID, '_cmb_pdf', true ); echo $text; ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h5>
+					<h5><a href="<?php global $post; $text = get_post_meta( $post->ID, '_cmb_pdf', true ); echo $text; ?>" title="<?php the_title_attribute(); ?>" target="_blank"><?php the_title(); ?></a></h5>
 				</div>
-				<a href="<?php global $post; $text = get_post_meta( $post->ID, '_cmb_pdf', true ); echo $text; ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('related'); ?></a>
+				<a href="<?php global $post; $text = get_post_meta( $post->ID, '_cmb_pdf', true ); echo $text; ?>" title="<?php the_title_attribute(); ?>" target="_blank"><?php the_post_thumbnail('related'); ?></a>
 			</div>
 		</div>
 
